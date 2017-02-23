@@ -33,7 +33,9 @@ using std::vector;
 using std::binary_function;
 using std::map;
 
-#define BOOST_OS_WINDOWS 0
+#undef BOOST_OS_WINDOWS
+#undef BOOST_OS_LINUX
+
 #define BOOST_OS_LINUX 1
 
 #ifdef BOOST_OS_WINDOWS
